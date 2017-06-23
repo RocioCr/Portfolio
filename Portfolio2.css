@@ -1,0 +1,90 @@
+
+h1
+  {width: 200px; height: 30px;
+  float: left; clear: left;
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left: 100px;}
+
+nav
+  {margin: 0 30px;
+  background-color: GhostWhite;}
+
+ul
+    {list-style-type: none;
+    margin: 0; padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 80px;
+    overflow: hidden; float: right;
+    font-family: 'Ek Mukta', sans-serif;}
+
+li {float: left;}
+
+li a
+  {padding: 14px 25px;
+  font-family: 'Ek Mukta', sans-serif;
+  display: block;
+  text-decoration: none;}
+
+li a:hover {background-color: #D8E4EF;}
+
+.menu{text-align: right;}
+
+.portada
+    {align-content: center; width: 1200px;
+    margin-left: 100px; margin-right: 100px;}
+
+#Aboutme
+  {background-color: GhostWhite;
+  padding: 80px;
+  padding-top: 150px;
+  padding-bottom: 300px;}
+
+.sobremi{text-align: center;}
+
+.Projects
+  {padding-top: 0px;
+  padding-bottom: 20px;}
+
+h2
+  {text-align: center;
+  padding-top:100px;
+  font-size: 30px;
+  color: #173172;
+  padding-bottom: 100px;
+  font-family: 'Ek Mukta', sans-serif;}
+
+  .Projects
+    {padding-left: 100px;
+    padding-right: 100px;
+    display: flex;}
+
+  .Projects-content
+    {font-family: 'Ek Mukta', sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;}
+
+#Todos li:nth-child(Odd)
+    {background-color: red;
+    padding-right: 40px;
+    padding-top: 0px;
+    flex-direction: row;
+    text-align: left;}
+
+#Todos li:nth-child(Even)
+    {background-color: blue;
+    padding-right: 40px;
+    padding-top: 0px;
+    flex-direction: row-reverse;
+    text-align: right;}
+
+#Contact {background-color: GhostWhite}
+
+form {padding: 60px;}
+
+h3
+  {color: #173172;
+  font-family: 'Ek Mukta', sans-serif;}
