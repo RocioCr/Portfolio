@@ -1,0 +1,32 @@
+.Projects
+    {padding-bottom: 5px;
+    display: flex;}
+
+.Projects-content
+    {font-family: $montserrat;
+    font-weight: lighter;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    background-color: #8FC9F7;
+    justify-content: center;}
+
+.Projects:nth-child(Odd)
+    {padding-right: 0px;
+    flex-direction: row;
+    text-align: right;
+    justify-content: center;}
+
+.Projects:nth-child(Even)
+    {padding-right: 0px;
+    flex-direction: row-reverse;
+    display: flex;
+    text-align: left;
+    justify-content: center;}
+
+.Projects-content:nth-child(Even)
+    {width: 500px}
+
+.Projects-content:nth-child(Odd)
+        {width: 500px}
